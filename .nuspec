@@ -13,7 +13,7 @@
     <file
       src=".\**"
       target="content"
-      exclude=".\.template.json;.\src\GithubActions.yml;.\.git\**;.\src\packages\**;**\bin\**;**\obj\**;**\.vs\**;**\*.user;"/>
+      exclude=".\.gitignore;.\.template.json;.\src\GithubActions.yml;.\.git\**;.\src\packages\**;**\bin\**;**\obj\**;**\.vs\**;**\*.user;"/>
 	<file src=".\src\.editorconfig" target="content\src\.editorconfig"/>
 	<file src=".\.template.json" target="content\.template.config\template.json"/>
 	<file src=".\src\GithubActions.yml" target="content\.github\workflows\dotnet.yml"/>    
