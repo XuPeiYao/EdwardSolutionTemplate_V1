@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Persistance", "05_Persis
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_Deployment", "08_Deployment", "{3DCCA214-4719-48A2-B971-B3CA88023FA7}"
 	ProjectSection(SolutionItems) = preProject
-		GthubActions.yml = GthubActions.yml
+		GithubActions.yml = GithubActions.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Solution", "00_Solution", "{FCFDC450-6299-46F0-BE64-4BC42779FB90}"
@@ -39,6 +39,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardSolutionTemplate.Extensions", "EdwardSolutionTemplate.Extensions\EdwardSolutionTemplate.Extensions.csproj", "{1F360E2F-6001-416F-9B1E-6B0DFDBA02CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardSolutionTemplate.Utilities", "EdwardSolutionTemplate.Utilities\EdwardSolutionTemplate.Utilities.csproj", "{FAA08375-A73F-4F42-9238-F0781C80BC40}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AE1F9FA3-A893-40B0-8107-40D465C7441D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +72,10 @@ Global
 		{FAA08375-A73F-4F42-9238-F0781C80BC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA08375-A73F-4F42-9238-F0781C80BC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA08375-A73F-4F42-9238-F0781C80BC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1F9FA3-A893-40B0-8107-40D465C7441D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1F9FA3-A893-40B0-8107-40D465C7441D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1F9FA3-A893-40B0-8107-40D465C7441D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1F9FA3-A893-40B0-8107-40D465C7441D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{823C210B-C974-42B8-A971-DFE882B92135} = {5C26E0F7-FB43-4501-A3DB-15185CF3CBCA}
 		{1F360E2F-6001-416F-9B1E-6B0DFDBA02CF} = {633A6499-8489-4281-ADE2-EA3C5E071186}
 		{FAA08375-A73F-4F42-9238-F0781C80BC40} = {633A6499-8489-4281-ADE2-EA3C5E071186}
+		{AE1F9FA3-A893-40B0-8107-40D465C7441D} = {FCFDC450-6299-46F0-BE64-4BC42779FB90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24DBB044-DBED-4A3C-B3DE-3D7AE4CE23FE}

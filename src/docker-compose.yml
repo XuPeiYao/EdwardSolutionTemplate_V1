@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  edwardsolutiontemplate.api:
+    image: ${DOCKER_REGISTRY-}edwardsolutiontemplateapi
+    build:
+      context: .
+      dockerfile: EdwardSolutionTemplate.API/Dockerfile

@@ -8,10 +8,6 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 WORKDIR /src
 COPY ["EdwardSolutionTemplate.API/EdwardSolutionTemplate.API.csproj", "EdwardSolutionTemplate.API/"]
-COPY ["EdwardSolutionTemplate.Domain/EdwardSolutionTemplate.Domain.csproj", "EdwardSolutionTemplate.Domain/"]
-COPY ["EdwardSolutionTemplate.Extensions/EdwardSolutionTemplate.Extensions.csproj", "EdwardSolutionTemplate.Extensions/"]
-COPY ["EdwardSolutionTemplate.Utilities/EdwardSolutionTemplate.Utilities.csproj", "EdwardSolutionTemplate.Utilities/"]
-COPY ["EdwardSolutionTemplate.Accesses.EF/EdwardSolutionTemplate.Accesses.EF.csproj", "EdwardSolutionTemplate.Accesses.EF/"]
 RUN dotnet restore "EdwardSolutionTemplate.API/EdwardSolutionTemplate.API.csproj"
 COPY . .
 WORKDIR "/src/EdwardSolutionTemplate.API"

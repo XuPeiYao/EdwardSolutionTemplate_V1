@@ -4,6 +4,18 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\net5.0\EdwardSolutionTemplate.Domain.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\net5.0\EdwardSolutionTemplate.Domain.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\EdwardSolutionTemplate.Accesses.EF\EdwardSolutionTemplate.Accesses.EF.csproj" />
     <ProjectReference Include="..\EdwardSolutionTemplate.Extensions\EdwardSolutionTemplate.Extensions.csproj" />
