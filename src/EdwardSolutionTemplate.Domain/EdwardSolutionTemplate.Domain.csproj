@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EdwardSolutionTemplate.Accesses.EF\EdwardSolutionTemplate.Accesses.EF.csproj" />
+    <ProjectReference Include="..\EdwardSolutionTemplate.Extensions\EdwardSolutionTemplate.Extensions.csproj" />
+    <ProjectReference Include="..\EdwardSolutionTemplate.Utilities\EdwardSolutionTemplate.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

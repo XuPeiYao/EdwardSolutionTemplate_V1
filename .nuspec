@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EdwardHsu.WebSolution</id>
+    <version>1.0.0</version>
+    <description>Edward Hsu's Web Project Template</description>
+    <authors>Edward Hsu</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file
+      src=".\**"
+      target="content"
+      exclude=".\.template.json;.\src\GithubActions.yml;.\.git\**;.\src\packages\**;**\bin\**;**\obj\**;**\.vs\**;**\*.user;"/>
+	<file src=".\src\.editorconfig" target="content\src\.editorconfig"/>
+	<file src=".\.template.json" target="content\.template.config\template.json"/>
+	<file src=".\src\GithubActions.yml" target="content\.github\workflows\dotnet.yml"/>    
+  </files>
+</package>

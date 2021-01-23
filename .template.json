@@ -1,0 +1,12 @@
+{
+    "author": "Edward Hsu",
+    "classifications": ["Web"],
+    "name": "Edward Hsu's WebSolution Template",
+    "identity": "EdwardHsu.WebSolution",
+    "shortName": "edwardhsuweb",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "EdwardSolutionTemplate",
+    "preferNameDirectory": "true"
+}
